@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+		<title>Beauté</title>
+		<meta name="Description" content="日本のコスメ、食品を取り扱うECサイトです">
+		<link rel="stylesheet" href="css/destyle.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<header>
+				<!-- sp header -->
+				<div class="sp_menubar">
+					<button type="button" class="sp_menubtn">
+						<img src="img/menu.png" alt="menu">
+					</button>
+					<h1 class="sp_title"><a href="index.html"><img src="img/beaute_logo_w.png" alt="Beauté（ボーテ）"></a></h1>
+					<div class="sp_icon">
+						<a href="login.html"><img src="img/account.png" alt="account"></a>
+						<a href=""><img src="img/cart.png" alt="cart"></a>
+					</div>
+				</div>
+				<!-- pc header -->
+				<div class="pc_menubar">
+					<div class="pc_menu">
+						<h1 class="pc_title"><a href="index.html"><img src="img/beaute_logo_w.png" alt="Beauté（ボーテ）"></a></h1>
+						<ul class="pc_menulist">
+							<li><a href="index.html">ホーム</a></li>
+							<li><a href="summary.html">商品一覧</a></li>
+							<li><a href="">お知らせ</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">お問い合わせ</a></li>
+						</ul>
+					</div>
+					<div class="pc_icon">
+						<a href=""><img src="img/search.png" alt="search"></a>
+						<a href="login.html"><img src="img/account.png" alt="account"></a>
+						<a href=""><img src="img/cart.png" alt="cart"></a>
+					</div>
+				</div>
+				
+			</header>
+			<!-- sp menu -->
+			<aside class="sp_menu">
+				<button class="sp_menuclose">
+					<img src="img/close.png" alt="close">
+				</button>
+				<div>
+					<form id="sform" method="get" action="">
+						<div class="search_box">
+							<input id="stxt" type="search" value="" placeholder="商品を検索">
+							<button id="sbtn" type="submit"><img src="img/search.png" alt="search"></button>
+						</div>
+					</form>
+					<ul class="sp_menulist">
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="summary.html">商品一覧</a>
+							<ul>
+								<li><a href="summary.html">コスメ</a></li>
+								<li><a href="summary.html">食品</a></li>
+							</ul>
+						</li>
+						<li><a href="">お知らせ</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">お問い合わせ</a></li>
+					</ul>
+				</div>
+			</aside>
+			
+			<main>
+				<div class="main_wrapper">
+					<!-- slide -->
+					<div class="sp_slide">
+						<a href=""><img src="img/banner1_sp.jpg" alt="新生活応援キャンペーン"></a>
+					</div>
+					<div class="pc_slide">
+						<a href=""><img src="img/banner1_pc.jpg" alt="新生活応援キャンペーン"></a>
+					</div>
+					
+					<section id="ranking">
+						<h2>人気ランキング</h2>
+						<div class="overflow_container">
+							<div class="ranking_content">
+								<div class="ranking_1st">
+									<a href="">
+										<img src="goods/goods_c1.jpg" alt="lank1st">
+        	    	              	  	<div>
+        	    	              	  	  <p class="ranking_item">花咲か美人 化粧水</p>
+        	    	              	  	  <p class="ranking_price">￥0,000</p>
+        	    	              	  	</div>
+									</a>
+        	    	            </div>
+								<div class="ranking_other">
+									<div class="ranking_2nd">
+										<a href="">
+											<img src="goods/goods_f1.jpg" alt="lank2nd">
+											<div>
+												<p class="ranking_item">綺麗の源 五穀米</p>
+												<p class="ranking_price">￥0,000</p>
+											</div>
+										</a>
+									</div>
+									<div class="ranking_3rd">
+										<a href="">
+											<img src="goods/goods_f2.jpg" alt="lank3rd">
+											<div>	
+												<p class="ranking_item">野菜から作ったマルチビタミン</p>
+												<p class="ranking_price">￥0,000</p>
+											</div>
+										</a>
+									</div>
+									<div class="ranking_4th">
+										<a href="">
+											<img src="goods/goods_c2.jpg" alt="lank4th">
+											<div>
+												<p class="ranking_item">つや紅 リップ</p>
+												<p class="ranking_price">￥0,000</p>
+											</div>
+										</a>
+									</div>
+									<div class="ranking_5th">
+										<a href="">
+											<img src="goods/goods_c3.jpg" alt="lank5th">
+											<div>
+												<p class="ranking_item">SAKURA シャンプー</p>
+												<p class="ranking_price">￥0,000</p>
+											</div>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="btn"><a href="summary.html">商品一覧</a></div>
+					</section>
+					
+					<section id="feature">
+						<h2>特集</h2>
+						<div class="feature_content">
+							<div>
+								<a href="">
+									<img src="goods/feature1.jpg" alt="お肌の健康特集" class="feature_pic">
+									<p>【新商品】アイテム入荷！お肌の健康特集</p>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<img src="goods/feature2.jpg" alt="健康食品特集" class="feature_pic">
+									<p>【特集】野菜を摂ろう！健康食品特集</p>
+								</a>
+							</div>
+							<div>
+								<a href="">
+									<img src="goods/feature3.jpg" alt="体を気遣う特集" class="feature_pic">
+									<p>【特集】美容のために、体を気遣う特集</p>
+								</a>
+							</div>
+						</div>
+						<div class="btn"><a href="">他の特集を見る</a></div>
+					</section>
+					
+					<section id="category">
+						<h2>カテゴリー</h2>
+						<div class="category_wrapper">
+							<div class="categorybtn cosme"><a href="">コスメ</a></div>
+							<div class="categorybtn foods"><a href="">食品</a></div>
+						</div>
+					</section>
+					
+					<section id="infomation">
+						<h2>お知らせ</h2>
+						<ul>
+							<li>
+								<p class="info_date">2024.03.01</p>
+								<p class="info_p"><a href="">このサイトについて</a></p>
+							</li>
+							<li>
+								<p class="info_date">2024.03.01</p>
+								<p class="info_p"><a href="">このサイトについて</a></p>
+							</li>
+							<li>
+								<p class="info_date">2024.03.01</p>
+								<p class="info_p"><a href="">このサイトについて</a></p>
+							</li>
+						</ul>
+						<div class="btn"><a href="">他のお知らせ</a></div>
+					</section>	
+				</div>
+			</main>
+			
+			<footer>
+				<div class="footer_wrapper">
+					<div>
+						<p>初めての方へ</p>
+						<ul>
+							<li><a href="">ショッピングガイド</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">お問い合わせ</a></li>
+						</ul>
+					</div>
+					<div>
+						<p>このサイトについて</p>
+						<ul>
+							<li><a href="">会社概要</a></li>
+							<li><a href="">利用規約</a></li>
+							<li><a href="">プライバシーポリシー</a></li>
+							<li><a href="">特定商取引法に基づく表記</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copy">
+					<small>© Beauté</small>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

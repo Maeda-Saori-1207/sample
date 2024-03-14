@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap" rel="stylesheet">
+		<title>Beauté｜商品一覧</title>
+		<meta name="Description" content="日本のコスメ、食品を取り扱うECサイトです">
+		<link rel="stylesheet" href="css/destyle.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</head>
+	
+	<body>
+		<div class="container">
+			<header>
+				<!-- sp header -->
+				<div class="sp_menubar">
+					<button type="button" class="sp_menubtn">
+						<img src="img/menu.png" alt="menu">
+					</button>
+					<h1 class="sp_title"><a href="index.html"><img src="img/beaute_logo_w.png" alt="Beauté（ボーテ）"></a></h1>
+					<div class="sp_icon">
+						<a href="login.html"><img src="img/account.png" alt="account"></a>
+						<a href=""><img src="img/cart.png" alt="cart"></a>
+					</div>
+				</div>
+				<!-- pc header -->
+				<div class="pc_menubar">
+					<div class="pc_menu">
+						<h1 class="pc_title"><a href="index.html"><img src="img/beaute_logo_w.png" alt="Beauté（ボーテ）"></a></h1>
+						<ul class="pc_menulist">
+							<li><a href="index.html">ホーム</a></li>
+							<li><a href="summary.html">商品一覧</a></li>
+							<li><a href="">お知らせ</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">お問い合わせ</a></li>
+						</ul>
+					</div>
+					<div class="pc_icon">
+						<a href=""><img src="img/search.png" alt="search"></a>
+						<a href="login.html"><img src="img/account.png" alt="account"></a>
+						<a href=""><img src="img/cart.png" alt="cart"></a>
+					</div>
+				</div>
+			</header>
+			<!-- sp menu -->
+			<aside class="sp_menu">
+				<button class="sp_menuclose">
+					<img src="img/close.png" alt="close">
+				</button>
+				<div>
+					<form id="sform" method="get" action="">
+						<div class="search_box">
+							<input id="stxt" type="search" value="" placeholder="商品を検索">
+							<button id="sbtn" type="submit"><img src="img/search.png" alt="search"></button>
+						</div>
+					</form>
+					<ul class="sp_menulist">
+						<li><a href="index.html">ホーム</a></li>
+						<li><a href="summary.html">商品一覧</a>
+							<ul>
+								<li><a href="summary.html">コスメ</a></li>
+								<li><a href="summary.html">食品</a></li>
+							</ul>
+						</li>
+						<li><a href="">お知らせ</a></li>
+						<li><a href="">FAQ</a></li>
+						<li><a href="">お問い合わせ</a></li>
+					</ul>
+				</div>
+			</aside>
+			
+			<main>
+				<div class="breadcrumb">
+					<p><a href="index.html">ホーム</a> ＞ 商品一覧</p>
+				</div>
+				
+				<section id="summary">
+					<h2>商品一覧</h2>
+					<div class="summary_wrapper">
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c1.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">花咲か美人 化粧水</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f1.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">綺麗の源 五穀米</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f2.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">野菜から作ったマルチビタミン</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c2.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">つや紅 リップ</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c3.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">SAKURA シャンプー</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f3.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">プラセンタ プレミアム</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c1.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">花咲か美人 化粧水</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f1.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">綺麗の源 五穀米</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f2.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">野菜から作ったマルチビタミン</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c2.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">つや紅 リップ</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_c3.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name"><a href="">SAKURA シャンプー</a></p>
+								<p class="goods_price"><a href="">￥0,000</a></p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+						<div class="summary_goods">
+							<a href=""><img src="goods/goods_f3.jpg" alt="goodspicture"></a>
+							<div>	
+								<p crass="goods_name">プラセンタ プレミアム</p>
+								<p class="goods_price">￥0,000</p>
+								<button class="add_cart">カートに入れる</button>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+			
+			<footer>
+				<div class="footer_wrapper">
+					<div>
+						<p>初めての方へ</p>
+						<ul>
+							<li><a href="">ショッピングガイド</a></li>
+							<li><a href="">FAQ</a></li>
+							<li><a href="">お問い合わせ</a></li>
+						</ul>
+					</div>
+					<div>
+						<p>このサイトについて</p>
+						<ul>
+							<li><a href="">会社概要</a></li>
+							<li><a href="">利用規約</a></li>
+							<li><a href="">プライバシーポリシー</a></li>
+							<li><a href="">特定商取引法に基づく表記</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="copy">
+					<small>© Beauté</small>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
